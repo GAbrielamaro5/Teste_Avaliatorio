@@ -5,9 +5,9 @@ const fatorial = (fator) => {
     while (count <= fator) {
 
         resultado *= count
-        count++
+        console.log(count++)
 
     }
     return resultado
 }
-console.log(fatorial(5))
+console.log("Valor fatorial " + fatorial(5))

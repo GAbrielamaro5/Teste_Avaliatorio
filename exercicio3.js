@@ -1,7 +1,7 @@
-const A = 1
-const B = 2
-const C = 3
-const D = 4
+const A = 10
+const B = 25
+const C = 32
+const D = 43
 
 const P = A + C
 const S = B + D
