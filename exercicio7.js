@@ -1,7 +1,7 @@
-function classificaTriangulo(lado1, lado2, lado3) {
-    if (lado1 == lado2 && lado2 == lado3) {
+function classificaTriangulo(A, B, C) {
+    if (A == B && B == C) {
         return 'Equilátero'
-    } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
+    } else if (A == B || B == C || A == C) {
         return 'Isósceles'
     } else {
         return 'Escaleno'

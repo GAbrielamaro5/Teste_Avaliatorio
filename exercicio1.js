@@ -1,8 +1,6 @@
 const Tempo = 5; 
 const VelMedia = 90;
 
-
-
 const Distancia = Tempo * VelMedia;
 
 const Consumo = Distancia / 12;
